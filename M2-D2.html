@@ -44,15 +44,16 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             to make sure you give every album the same consistent appearance.
          */
     </style>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-light">
     <!-- EXERCISE 2 
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page
         -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Paul's Jukebox</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,9 +77,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -95,7 +94,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             - 2 albums per row when you are on a small screen
         -->
 
-        <div class="container-fluid"> 
+        <div class="container-fluid mt-4"> 
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 img-thumbnail">
                   <div>
@@ -326,53 +325,76 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                 </div>
               </div>
           </div>
-          <div class="container">
+          <div class="container bg-light mt-4">
             <div class="row">
               <div class="col"><img src="bad album 1300.jfif" alt="wutangpicture" class="img-thumbnail"></div>
               <div class="col">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
               <div class="col"><img src="souljaboybad_adobespark.jfif" alt="souljah boy pic" class="img-thumbnail"></div>
               <div class="col">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
             </div>
             </div>
               
           </div>
-    <!-- EXERCISE 4
-            Create a section for the album reviews.
-            Pick one of your fav albums, and create a section with:
-            - Cover
-            - Title
-            - Band
-            - Duration
-            - Genre
-            - Tracklist
-            - ... And whatever you think it's interesting about it!
-        -->
 
-    <!-- EXERCISE 5
-            Worst album list! Find out the music you don't really like or you find overrated and list it
-            in this "hall of shame" chart!
-        -->
-
-    <!-- EXERCISE 6
-            Do you have any musician / band you admire or you are a fan of?
-            This section is dedicated to him / her / them!
-            Feel free to experiment in this part of the page.
-        -->
-
-        <div class="container-fluid">
-          <div class="col-12">
-            <img src="dime_adobespark.jfif" alt="dime" class="text-center">
+        <div class="container">
+          <div class="row d-lex justify-content-center bg-light mt-4">
+              <div class="col-xs-6">
+                  <img class="dime" src="dime.jpg">
+              </div>
+              <div class="col-xs-6">
+                  <h3>Dimebag Darrell</h3>
+                  <p>Born and raised in Texas, Darrell 'Dimebag' Abbott is easily one of the best, most face shredding metal guitarists there has been.</p>
+                  <p>20 August 1966 - 8 December 2004</p>
+              </div>
           </div>
-        </div>
-
+      </div>
     <!-- EXERCISE 7
             Just covers!
             Create a tapestry of album pictures. Every album picture must be "square" (use CSS to do that).
             Put at least 20 covers (also repeated) to have a nice effect and see how Bootstrap handles it.
         -->
 
+        <div class="container-fluid"> 
+          <div class="row">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center ">
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+                <div>
+                  <img class="pantera" src="pantera pic.jpg" alt="panterapic" >
+                </div>
+               
+              </div>
+        </div>
     <!-- EXERCISE 8
             Implement a footer with some information / social links
         -->
