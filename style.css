@@ -1,6 +1,12 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(1,1,24,1) 35%, rgba(0,212,255,1) 100%);
+}
+
 .dime {
     width: 540px;
     height: auto;
+    margin-top: 5px;
 }
 
 .navbar {
@@ -11,4 +17,33 @@
 .pantera {
     width: 300px;
     height: auto;
+}
+
+.albums {
+    background-color: rgb(197, 194, 195);
+    
+}
+
+.album-tapestry {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.squared {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    color:cornsilk;
+    padding-top: 20px;
+}
+
+.fa {
+    margin-left: 20px;
 }
