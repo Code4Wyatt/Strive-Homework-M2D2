@@ -1,6 +1,6 @@
 body {
-    background: rgb(2,0,36);
-background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(1,1,24,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(137deg, rgba(2, 0, 36, 1) 0%, rgba(1, 1, 24, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .dime {
@@ -11,7 +11,7 @@ background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(1,1,24,1) 35%, rgba(
 
 .navbar {
     background-color: rgb(66, 66, 70);
-    color:  cornsilk;
+    color: cornsilk;
 }
 
 .pantera {
@@ -19,15 +19,12 @@ background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(1,1,24,1) 35%, rgba(
     height: auto;
 }
 
-.albums {
-    background-color: rgb(197, 194, 195);
-    
-}
+
 
 .album-tapestry {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .squared {
@@ -40,7 +37,7 @@ background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(1,1,24,1) 35%, rgba(
 .footer {
     background-color: black;
     height: 100px;
-    color:cornsilk;
+    color: cornsilk;
     padding-top: 20px;
 }
 
